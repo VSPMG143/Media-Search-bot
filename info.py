@@ -8,7 +8,7 @@ API_HASH = environ['API_HASH']
 BOT_TOKEN = environ['BOT_TOKEN']
 
 # Bot settings
-MAX_RESULTS = int(environ.get('MAX_RESULTS', 10))
+MAX_RESULTS = int(environ.get('MAX_RESULTS', 50))
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 
 # Admins & Channels
@@ -22,7 +22,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Messages
 START_MSG = """
-**Hi, I'm Media Search bot**
+**Hi, I'm Media Search bot** Devloper-: @expertinbotmaking
 
 Here you can search files in inline mode. Just press follwing buttons and start searching.
 """
